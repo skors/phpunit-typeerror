@@ -1,0 +1,24 @@
+{
+    "name": "skors/phpunit-typeerror",
+    "type": "library",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpunitTypeError\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpunitTypeErrorTest\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Kors",
+            "email": "skors@unicosoft.de"
+        }
+    ]
+}
